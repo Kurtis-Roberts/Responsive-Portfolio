@@ -1,0 +1,332 @@
+            body {
+                background-image: url("../images/topography.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            
+            .container {
+                width: 100%;
+            }
+            
+            .header {
+                background-color: #ffffff;
+                float: right;
+                padding: 17px;
+                margin-top: 12px;
+            }
+            
+            .header li {
+                display: inline-block;
+                text-decoration: none;
+            }
+            
+            .header a {
+                color: #666666;
+            }
+            
+            .header a:hover {
+                color: #65a8a4;
+            }
+            
+            .yourname {
+                background-color: #65a8a4;
+                width: 17%;
+                float: left;
+                padding: 20px;
+                color: white;
+                margin-top: 0px;
+                margin-left: 150px;
+                text-align: center;
+                height: 28px;
+                font-size: 28px;
+                line-height: 35px;
+            }
+            
+            input {
+                width: 100%;
+                height: 25px;
+            }
+            
+            textarea {
+                width: 100%;
+                height: 200px;
+            }
+            
+            .main {
+                width: 47%;
+                background-color: #ffffff;
+                padding: 2%;
+                margin-top: 40px;
+                margin-left: 5%;
+                margin-right: 5%;
+                float: left;
+                height: 60%;
+                border: 1px solid #666666;
+            }
+            
+            .main-portfolio {
+                width: 47%;
+                background-color: #ffffff;
+                padding: 2%;
+                margin-top: 40px;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 10%;
+                float: left;
+                height: 100%;
+                border: 1px solid #666666;
+            }
+            
+            .main h2 {
+                color: #65a8a4;
+                font-size: 28px;
+            }
+            
+            .main-portfolio h2 {
+                color: #65a8a4;
+                font-size: 28px;
+            }
+            
+            .my-text {
+                font-size: 20px;
+                margin-top: -4px;
+            }
+            
+            .relative {
+                position: relative;
+                width: 190px;
+                height: 190px;
+                float: left;
+                padding-right: 32px;
+                padding-left: 23px;
+            }
+            
+            .relative-2 {
+                position: relative;
+                float: left;
+                padding-right: 32px;
+                padding-left: 23px;
+            }
+            
+            .relative-3 {
+                position: relative;
+                padding-right: 32px;
+                padding-left: 23px;
+                float: left;
+            }
+            
+            .relative-4 {
+                position: relative;
+                float: left;
+                padding-right: 26px;
+                padding-left: 22px;
+                padding-top: 13px;
+            }
+            
+            .relative-5 {
+                position: relative;
+                padding-right: 32px;
+                padding-left: 23px;
+                float: left;
+            }
+            
+            .absolute-text {
+                position: relative;
+                bottom: 47px;
+                font-size: 24px;
+                font-family: "vedana";
+                background: rgba(251, 251, 251, 0.5);
+                padding: 10px 47.5px;
+                width: 50%;
+                margin-left: 0px;
+                text-align: center;
+                background-color: #65a8a4
+            }
+            
+            .absolute-text-2 {
+                position: absolute;
+                bottom: 2px;
+                font-size: 24px;
+                font-family: "vedana";
+                background: rgba(251, 251, 251, 0.5);
+                padding: 0px 41.5px;
+                width: 50%;
+                margin-left: 0px;
+                text-align: center;
+                background-color: #65a8a4;
+                line-height: 45px;
+            }
+            
+            .absolute-text-3 {
+                position: absolute;
+                bottom: 0px;
+                font-size: 24px;
+                font-family: "vedana";
+                background: rgba(251, 251, 251, 0.5);
+                padding: 0px 41.5px;
+                width: 50%;
+                margin-left: 0px;
+                text-align: center;
+                background-color: #65a8a4;
+                line-height: 45px;
+            }
+            
+            .absolute-text-4 {
+                position: absolute;
+                bottom: 2px;
+                font-size: 24px;
+                font-family: "vedana";
+                background: rgba(251, 251, 251, 0.5);
+                padding: 0px 41.5px;
+                width: 50%;
+                margin-left: 0px;
+                text-align: center;
+                background-color: #65a8a4;
+                line-height: 25px;
+            }
+            
+            .absolute-text-5 {
+                position: absolute;
+                bottom: 2px;
+                font-size: 24px;
+                font-family: "vedana";
+                background: rgba(251, 251, 251, 0.5);
+                padding: 0px 40.5px;
+                width: 50%;
+                margin-left: 0px;
+                text-align: center;
+                background-color: #65a8a4;
+                line-height: 25px;
+            }
+            
+            .social {
+                float: left;
+                width: 30%;
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 40px;
+                background-color: #ffffff;
+                text-align: center;
+                height: 170px;
+                border: 1px solid #666666;
+            }
+            
+            .social-portfolio {
+                float: left;
+                width: 30%;
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 40px;
+                margin-bottom: 10%;
+                background-color: #ffffff;
+                text-align: center;
+                height: 170px;
+                border: 1px solid #666666;
+            }
+            
+            .social h3 {
+                color: #65a8a4;
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            
+            .social-portfolio h3 {
+                color: #65a8a4;
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            
+            .social-images img {
+                width: 80px;
+                height: 80px;
+            }
+            
+            .social-images img:hover {
+                -moz-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+            
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            nav {
+                margin-left: -8px;
+                margin-right: -8px;
+                margin-top: -7px;
+                background-color: white;
+                height: 68px;
+                border-bottom: 1px solid #666666;
+            }
+            
+            footer {
+                bottom: 0;
+                position: fixed;
+                text-align: center;
+                width: 100%;
+                background-color: #666666;
+                line-height: 30px;
+                color: white;
+                margin-left: 0px;
+            }
+            
+            .footer-portfolio {
+                bottom: 0;
+                position: fixed;
+                text-align: center;
+                width: 100%;
+                background-color: #666666;
+                line-height: 60px;
+                color: white;
+                margin-left: 0px;
+            }
+            
+            .footer-cap {
+                width: 100%;
+                background-color: #65a8a4;
+                height: 8px;
+            }
+            
+            @media screen and (max-width: 979px) {
+                .main {
+                    width: 85%;
+                }
+                .social {
+                    width: 89%;
+                }
+                .social-portfolio {
+                    width: 51%;
+                }
+            }
+            
+            @media screen and (max-width: 768px) {
+                .main {
+                    width: 80%;
+                }
+                .social {
+                    width: 84%;
+                }
+                .absolute-text {
+                    width: 50%;
+                }
+                .social-portfolio {
+                    width: 63%;
+                }
+            }
+            
+            @media screen and (max-width: 640px) {
+                .main {
+                    width: 86%;
+                }
+                .social {
+                    width: 90%;
+                    margin-right: 20%;
+                }
+                .social-portfolio {
+                    width: 51%;
+                }
+            }
